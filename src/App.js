@@ -9,6 +9,7 @@ function App() {
 const [input, setInput] = useState('')
 const [cep, setCep] = useState({});
 
+//teste aaa
 
  async function handle(){
    if (input == '') {
