@@ -10,7 +10,7 @@ const [input, setInput] = useState('')
 const [cep, setCep] = useState({});
 
  async function handle(){
-   if (input == '') {
+   if (input === '') {
      alert("Preencha o CEP")
      return;
    } 
