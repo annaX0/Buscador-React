@@ -9,8 +9,6 @@ function App() {
 const [input, setInput] = useState('')
 const [cep, setCep] = useState({});
 
-//teste batata
-
  async function handle(){
    if (input == '') {
      alert("Preencha o CEP")
